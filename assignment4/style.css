@@ -1,0 +1,39 @@
+*
+{
+  font-family:Arial;
+}
+.textcenter {
+  text-align: center;
+}
+.textjustify {
+  text-align: justify;
+}
+h1
+{
+  color: orange;
+  font-style:italic;
+  font-weight:normal;
+}
+h2{
+  color: orange;
+  font-style:italic;
+  font-weight:normal;
+}
+h3{
+  color: orange;
+  font-style:italic;
+  font-weight:normal;
+}
+.imagebox
+{
+  border: 10px solid #000000;
+  padding: 10px 10px 10px 10px;
+  margin: 20px 20px 20px 20px;
+  background-color: #ffff00;
+}
+body
+{
+  background-image: url(backgroundimage.png);
+  background-repeat: no-repeat;
+  background-position: top right;
+}
