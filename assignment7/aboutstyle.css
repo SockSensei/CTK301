@@ -1,0 +1,106 @@
+header {
+    grid-column: span 12;
+    background: linear-gradient(109.2deg, rgb(35, 90, 255) 16.5%,  rgb(33, 30, 255) 81%);
+    font-family:Helvetica, sans-serif;
+  }
+header a{
+    text-decoration: none;
+    color:rgb(0, 225, 255);
+  }
+h1{
+    font-style: italic;
+    font-weight: normal;
+    margin-left: 24px;
+}
+main{
+    grid-column: span 8;
+    margin:24px;
+}
+main a {
+    color:red;
+    text-decoration: none;
+    font-weight:bold;
+}
+main p {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+aside {
+    grid-column: span 4;
+    background-color: rgb(63, 226, 255);
+    padding-left: 24px;
+    padding-right:24px;
+  }
+aside p {
+    color:black;
+}
+h2{
+    color:#0040ff;
+    border-bottom: 3px solid #0040ff;
+    padding-bottom: 5px;
+    font-family:Helvetica, sans-serif;
+    font-weight: normal;
+}
+  footer {
+    border-top: 5px solid #003cff;
+    background-color: red;
+    grid-column: span 12;
+    padding: 5px;
+  }
+  body{
+    background-color: #bababa;
+  }
+  nav {
+    grid-column: span 12;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight:bold;
+    background: linear-gradient(109.2deg, rgb(35, 90, 255) 16.5%,  rgb(33, 30, 255) 81%);
+    border-top: 5px solid #003cff;
+    border-bottom: 5px solid #003cff;
+  }
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  nav li {
+    width: 225px;
+    display: inline-block;
+    margin: 0px;
+    background: linear-gradient(109.2deg, rgb(35, 90, 255) 16.5%,  rgb(33, 30, 255) 81%);
+  }
+  nav li a {
+    display:block;
+    background: linear-gradient(109.2deg, rgb(35, 90, 255) 16.5%,  rgb(33, 30, 255) 81%);
+    border: 1px solid #003cff;
+    padding: 10px;
+    margin: 0;
+    color:rgb(0, 225, 255);
+    text-decoration: none;
+  }
+  nav li a:hover{
+ color:white;
+  }
+  #wrapper {
+    margin: 1em auto;
+    padding: 0;
+    width: 960px;
+    border: 5px solid #003cff;
+    background-color: white;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+  }
+  .floating {
+    float: right;
+    border: 3px solid #003cff;
+    padding: 0;
+    margin-left: 15px;
+   }  
+   .floatstop{
+    clear:both;
+    padding-top:5px;
+}
+.justification{
+    text-align:justify;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-weight:bold;
+}
